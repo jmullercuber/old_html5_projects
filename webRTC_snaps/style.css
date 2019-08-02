@@ -1,0 +1,118 @@
+body {
+	margin-top: 0px;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #eef66b;
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+h1 {
+	display: block;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 15px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px; 
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: #00832e;
+	text-align: center;
+	color: #ff8000;
+}
+
+#introText {
+	width: 75%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #d586d4;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#app {
+    text-align: center;
+}
+
+video {
+	width: 800px;
+}
+
+#showPlane {
+	width: 320px;
+	overflow: auto;
+	background-color: #bef66b;
+}
+
+.numbering {
+    width: 20px;
+	margin: 5px;
+	display: inline;
+	position: relative;
+	top: 10px;
+}
+
+img {
+	height: 180px;
+	width: 240px;
+	display: inline-block;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 2px solid #ee016b;
+	border-radius: 5px;
+}
+
+.framist {
+	height: 600px;
+	display: inline-block;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	border: 3px solid #ee916b;
+	border-radius: 10px;
+}
+
+.littleWindow {
+	display: block;
+}
+
+.smallBox {
+	display: inline-block;
+	margin-left: 3px;
+}
+
+.miniButton {
+	width: 15px;
+	display: block;
+	margin-bottom: 5px;
+	border: 3px solid #A6A6A6;
+	border-radius: 15px;
+	font-weight: bold;
+	text-align: center;
+	overflow: auto;
+	color: #8585AD;
+	background-color: #CFCFCF;
+	cursor: pointer;
+}
+
+#footer {
+	height: 25px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 12px;
+	padding-top: 5px;
+	clear: both;
+	background-color: #00832e;
+	text-align: center;
+	color: #ffffff;
+}
