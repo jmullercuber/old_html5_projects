@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<meta charset="UTF-8"> 
+		<title>Detect Movement</title>
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<link rel="shortcut icon" href="Favicon.png"/>
+	</head>
+	<body>
+		<h1>Motion Detection - A Beginning</h1>
+		<div id="introText">
+			<p>This game allows you to play with a camera and your body to make the dot move.</p>
+			<p>If you'd like to know how it works, here's how. This app compares takes your stream, converts it to grayscale (1st canvas), and compares consecutive video frames, finding differences in them. Because there's "static" pretty much everything would return as changed. That's why a limit is imposed that the pixles must change in intensity by 30/FF Hex, or 48/225 Dec. The result is what you see in the 3rd canvas, indicating movement. Finally, rectangle regions corresponding with the blue boxes are defined, and a moving (white) pixel count is made from the 3rd canvas. If 15 live pixels exist, then a corresponding action is taken on the 2nd canvas with the dot!</p>
+			<p>This technique is by no means perfect, (although it is pretty good). For example, despite the first threshold for pixel intensity change, there may be static in a motionless room. I could always raise that value then, but it will then counteract pixels that really do represent movement. And about the conversion to grayscale, I haven't tested it, but suppose this: camera points in a room colored rgb(255, 0, 0), and a object colored rgb(0, 255, 0) walks across. Woud not the program ignore what we percieve as movement? Lastly, variations in the camera, setup, lighting, environment, and users may alter the run of the scripts. However, depending on how solid the above despription looks, everything should be fine.</p>
+		</div>
+		<div id="app">
+			<div id="controls-box"></div>
+			<video id="showCamera" class="framist" autoplay></video>
+			<canvas id="cannedVideo" class="framist"></canvas>
+			<canvas id="gameArea" class="framist"></canvas>
+			<canvas id="showDifferences" class="framist"></canvas>
+			<div id="resetPos">Reset Position</div>
+		</div>
+		<div id="footer">October 20th, 2013 → November 2nd, 2013</div>
+		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="game.js"></script>
+		<script type="text/javascript" src="firstRun.js"></script>
+		<script type="text/javascript" src="getUserMedia.js"></script>
+	</body>
+</html>

@@ -1,0 +1,94 @@
+body {
+	margin-top: 0px;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #eef66b;
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+h1 {
+	display: block;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 15px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px; 
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: #00832e;
+	text-align: center;
+	font-family: "Trebuchet MS", sans-serif;
+	color: #ff8000;
+}
+
+#introText {
+	width: 75%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #d586d4;
+	text-align: center;
+}
+
+video {
+	display: none;
+}
+
+canvas {
+	display: inline-block;
+}
+
+#gameArea {
+	background-color: white;
+}
+
+.button {
+	background-color: rgba(0, 255, 255, .5);
+	position: absolute;
+	border-radius: 10px;
+	text-align: center;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 18px;
+	color: #aa80aa;
+}
+
+.framist {
+	height: 360px;
+	width: 480px;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	border: 3px solid #ee916b;
+	border-radius: 10px;
+}
+
+#resetPos {
+	height:20px;
+	width: 120px;
+	display: inline-block;
+	position: relative;
+	top: -350px;
+	left: 175px;
+	background-color: #33FF33;
+	border: 3px solid #ee916b;
+	border-radius: 5px;;
+	text-align: center;
+}
+
+#footer {
+	height: 25px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 12px;
+	padding-top: 5px;
+	clear: both;
+	background-color: #00832e;
+	text-align: center;
+	font-family: "Trebuchet MS", sans-serif;
+	color: #ffffff;
+}
