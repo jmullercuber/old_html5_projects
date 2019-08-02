@@ -1,0 +1,102 @@
+body {
+	margin-top: 0px;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #eef66b;
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+h1 {
+	/*height: 100px;*/
+	display: block;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 15px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px; 
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: #00832e;
+	text-align: center;
+	font-family: "Trebuchet MS", sans-serif;
+	color: #ff8000;
+}
+
+#introText {
+	width: 75%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #d586d4;
+}
+
+#app {
+	height: 500px;
+	display: block;
+	margin: 10px;
+	padding: 20px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#aboutControls {
+	width: 400px;
+	float: left;
+	margin: auto;
+	margin-top: 17px;
+	border: 3px solid #ee916b;
+	border-radius: 10px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.trans {
+	display: inline-block;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 7px;
+}
+
+.barrier {
+	width: 420px;
+	margin-top: 22px;
+	margin-bottom: 15px;
+	border: 1px solid #ee916b;
+}
+
+canvas {
+	float: right;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	background-color:#FFFFFF;
+}
+
+/*canvas {
+	background-color:#b0e0e6;
+}*/
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#footer {
+	height: 25px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 12px;
+	padding-top: 5px;
+	clear: both;
+	background-color: #00832e;
+	text-align: center;
+	font-family: "Trebuchet MS", sans-serif;
+	color: #ffffff;
+}

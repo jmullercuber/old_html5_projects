@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<meta charset="UTF-8"> 
+		<title>Working with the Canvas</title>
+		<link type="text/css" rel="stylesheet" href="inStyle.css"/>
+		<link rel="shortcut icon" href="Favicon.png"/>
+	</head>
+	<body>
+		<h1>Working with the Canvas - Game of Life</h1>
+		<div id="introText">
+			<p>Let's see what I can do with the new HTML5 canvas! As my first project, I have recreated <a href="http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a>. I have already implemented a version in Khan Academy (Processing.js), and am converting this demonstration not only for portability, but also in joy of the Mozilla Webmaker Party!.</p>
+			<p>This project has given me an opportunity to utilize and improve my JavaScript, HTML and CSS skills. As a common lesson of programming, practically nothing works right the first time. My expanding knowledge of JavaScript and CSS is really what makes this possible, and is mostly what you see and interact with (not necessarily in that order). I probably should cite Stack Exchange and other web resources right now, and say that there are users' whose code I have modified to suit my purposes, but I will just provide the previous 36 words. Welcome everyone to my HTML5 implementation of Conway's Game of Life.</p>
+		</div>
+		<div id="app">
+			<div id="aboutControls">
+				<h3>Controls:</h3>
+				<p>Canvas must be selected (clicked or tabbed) before using the controls below!</p>
+				<div class="barrier"></div>
+				<ul>
+					<li>Pause:				P</li>
+					<li>Continue:			C</li>
+					<li>Restart (Blank):	R</li>
+					<li>Randomly Generate:	G</li>
+					<br>
+					<li>Spacebar:			Continuously turn the cells your mouse is hovering over to ON state in the next generation</li>
+					<li>Mouse Click:		Dynamically turn the cell you're hovering over to ON state in the next generation</li>
+					<li>WASD: Horizontally and vertically translate the grid</li>
+				</ul>
+				<div class="barrier"></div>
+				<h3 class="trans">Translated:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3><p class="trans" id="showTranslations">???</p>
+				<br>
+				<h3 class="trans">Coordinates:&nbsp;&nbsp;&nbsp;</h3><p class="trans" id="showCoordinates">Start Playing to find out!</p>
+			</div>
+
+			<canvas id="canvas" width="500" height="500" tabindex="1">Sorry! Your browser does not support the HTML5 Canvas element. That's too bad, because now you can't see my cool app. Don't be left behind, and upgrade to a newer browser like Mozilla Firefox, or Google Chrome.</canvas>
+		
+			<script type="text/javascript" src="life.js"></script>
+			<script type="text/javascript" src="events.js"></script>
+		</div>
+		<div id="footer">June 15th, 2013 → October 3rd, 2013</div>
+	</body>
+</html>
