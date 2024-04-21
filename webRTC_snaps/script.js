@@ -19,7 +19,7 @@ var fail = function (e) {
 
 // Let's get this started!
 var act = function (localStream) {
-	videoBox.src = window.URL.createObjectURL (localStream);
+	videoBox.srcObject = localStream;
 	videoBox.onloadedmetadata = play;	// not nessecary, but allows us to do future stuff
 };
 

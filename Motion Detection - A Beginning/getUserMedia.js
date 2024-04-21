@@ -16,7 +16,7 @@ var fail = function (e) {
 
 // Let's get this started!
 var act = function (localStream) {
-	videoBox.src = window.URL.createObjectURL (localStream);
+	videoBox.srcObject = localStream;
 	videoBox.onloadedmetadata = setTimeout(frun, 1000);
 };
 
